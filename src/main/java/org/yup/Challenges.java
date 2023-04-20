@@ -1,5 +1,6 @@
 package org.yup;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Challenges {
@@ -251,5 +252,71 @@ public class Challenges {
             return "go to bed";
         }
 
+    }
+
+    public void countToTen() {
+
+        //int i is our thing; i <= 10 is our condition.
+        for (int i = 1; i <= 100; i++) {
+            //runsome code
+            System.out.println(i);
+        }
+    }
+
+    public void countBackwards() {
+
+        //int i is our thing;
+        for (int i = 10; i >= 1; i--) {
+
+            System.out.println(i);
+        }
+    }
+
+    public void zeroToAHunnid() {
+
+        for (int i = 0; i <= 100; i += 2) {
+
+            System.out.println(i);
+        }
+    }
+
+    public void zeroToFiftyOdd() {
+
+        for (int i = 0; i <= 50; i++) {
+            if (i % 2 != 2) {
+                i++;
+            }
+
+            System.out.println(i);
+        }
+    }
+
+    public void zeroToFiftyEven() {
+
+        for (int i = 0; i <= 50; i++) {
+            while (i % 2 == 1) {
+                i++;
+            }
+
+            System.out.println(i);
+        }
+    }
+
+    public void countToTenWhile() {
+
+        int i = 1;
+        while (i <= 10) {
+            System.out.println(i);
+            i++;
+        }
+    }
+
+    public static int summation(int n) {
+        int sum = 0;
+        for (int i = 0; i <= n; i++) {
+            sum += i;
+
+        }
+        return sum;
     }
 }

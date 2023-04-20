@@ -48,7 +48,12 @@ public class JavaChallengesApp {
 //        System.out.println(challenges.changeToUppercase());
 //        System.out.println(challenges.changeToLowercase());
 //        System.out.println(challenges.lengthOfWord());
-        System.out.println(DayOfWeek.getDay(5));
+//        System.out.println(DayOfWeek.getDay(5));
+//        challenges.zeroToAHunnid();
+//        challenges.zeroToFiftyEven();
+//        challenges.zeroToFiftyOdd();
+//        challenges.countToTenWhile();
+        challenges.summation(1);
 
 
 
